@@ -1,9 +1,10 @@
 .git
 .gitignore
+demo
+demo.js
 docker-compose.yml
 index.js
 mix-maifest.json
 node_modules
-package.json
 webpack.mix.js
 yarn.lock

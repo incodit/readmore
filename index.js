@@ -12,7 +12,7 @@
       );
 
       function collapse(content, index) {
-          const words = content.text().split(' ');
+          const words = content.text().trim().split(/\s+/);
           if (words.length > settings.wordsCount) {
               words.splice(settings.wordsCount, 9e9);
               words.push('<a href="#" data-id="' + index + '" class="incodit-expand-content ' + settings.moreClass + '">' + settings.moreLabel + '</a>');
