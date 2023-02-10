@@ -16,6 +16,7 @@ npm install @incodit/moreless
 ```
 
 ```javascript
+require('@incodit/moreless');
 $(document).ready(function () {
     $('.item').moreLess({
         moreLabel: '... Read more', // optional
