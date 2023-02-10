@@ -1,6 +1,6 @@
 {
   "name": "@incodit/moreless",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight jQuery plugin for expanding and collapsing long content.",
   "author": {
     "name": "Incodit LLC",

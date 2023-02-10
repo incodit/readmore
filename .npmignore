@@ -4,7 +4,7 @@ demo
 demo.js
 docker-compose.yml
 index.js
-mix-maifest.json
+mix-manifest.json
 node_modules
 webpack.mix.js
 yarn.lock
