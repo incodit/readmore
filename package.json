@@ -1,0 +1,32 @@
+{
+  "name": "@incodit/moreless",
+  "version": "1.0.0",
+  "description": "A lightweight jQuery plugin for expanding and collapsing long content.",
+  "author": {
+    "name": "Incodit LLC",
+    "url": "https://incodit.com"
+  },
+  "contributors": [
+    "Balbinder Sumbria"
+  ],
+  "bugs": {
+    "url": "https://github.com/incodit/moreless/issues"
+  },
+  "homepage": "https://incodit.com/jquery/plugins/moreless",
+  "keywords": [
+    "readmore",
+    "more",
+    "less",
+    "readless",
+    "collpase",
+    "expand"
+  ],
+  "main": "moreless.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/incodit/moreless.git"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  }
+}
