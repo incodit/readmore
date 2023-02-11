@@ -33,7 +33,7 @@
           e.preventDefault();
           const index = $(this).attr('data-id');
           const selector = selectors[index];
-          selector.html(items[index] + '<br/><a href="#" data-id="' + index + '" class="incodit-collapse-content ' + settings.lessClass + '">' + settings.lessLabel + '</a>');
+          selector.html(items[index] + '<a href="#" data-id="' + index + '" class="incodit-collapse-content ' + settings.lessClass + '">' + settings.lessLabel + '</a>');
       });
 
       $(document).on('click', '.incodit-collapse-content', function (e) {
