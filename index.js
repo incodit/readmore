@@ -15,7 +15,7 @@
           const words = content.text().trim().split(/\s+/);
           if (words.length > settings.wordsCount) {
               words.splice(settings.wordsCount, 9e9);
-              words.push('<a href="#" data-id="' + index + '" class="incodit-expand-content ' + settings.moreClass + '">' + settings.moreLabel + '</a>');
+              words.push('<a href="#" data-id="' + index + '" class="moreless-expand-content ' + settings.moreClass + '">' + settings.moreLabel + '</a>');
           }
           content.html(words.join(' '));
       }
@@ -29,14 +29,14 @@
           collapse(item, index);
       });
 
-      $(document).on('click', '.incodit-expand-content', function (e) {
+      $(document).on('click', '.moreless-expand-content', function (e) {
           e.preventDefault();
           const index = $(this).attr('data-id');
           const selector = selectors[index];
-          selector.html(items[index] + '<a href="#" data-id="' + index + '" class="incodit-collapse-content ' + settings.lessClass + '">' + settings.lessLabel + '</a>');
+          selector.html(items[index] + '<a href="#" data-id="' + index + '" class="moreless-collapse-content ' + settings.lessClass + '">' + settings.lessLabel + '</a>');
       });
 
-      $(document).on('click', '.incodit-collapse-content', function (e) {
+      $(document).on('click', '.moreless-collapse-content', function (e) {
           e.preventDefault();
           const index = $(this).attr('data-id');
           const selector = selectors[index];
