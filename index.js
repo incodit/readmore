@@ -12,12 +12,12 @@
       );
 
       function collapse(content, index) {
-          const words = content.text().trim().split(/\s+/);
+          const words = content.html().trim().split(/\s+/);
           if (words.length > settings.wordsCount) {
               words.splice(settings.wordsCount, 9e9);
               words.push('<a href="#" data-id="' + index + '" class="moreless-expand-content ' + settings.moreClass + '">' + settings.moreLabel + '</a>');
           }
-          content.html(words.join(' '));
+          content.html(new DOMParser().parseFromString(words.join(' '), "text/html").body.innerHTML);
       }
 
       const items = [];

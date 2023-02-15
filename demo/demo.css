@@ -51,12 +51,6 @@ h6 {
   font-size: 0.875rem;
 }
 
-p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
-}
-
 .font-light {
   font-weight: 200;
 }
@@ -253,6 +247,14 @@ p {
   margin: 1rem 0;
   color: rgb(107 114 128 / 1);
   border-radius: 6px;
+}
+
+.item {
+  color: #333447;
+}
+
+.item p:first-child {
+  margin-top: 0;
 }
 
 .header {
