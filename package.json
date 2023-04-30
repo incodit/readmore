@@ -1,6 +1,6 @@
 {
   "name": "@incodit/readmore",
-  "version": "1.1.2",
+  "version": "1.0.0",
   "description": "A lightweight jQuery plugin for expanding and collapsing long content.",
   "author": {
     "name": "Incodit LLC",
