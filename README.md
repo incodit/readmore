@@ -1,9 +1,9 @@
 ## Installation
 
-You can install and configure moreLess using this command:
+You can install and configure readMore plugin using this command:
 
 ```shell
-npm install @incodit/moreless
+npm install @incodit/readmore
 ```
 
 ## Usage
@@ -23,18 +23,18 @@ npm install @incodit/moreless
 ```
 
 ```javascript
-import "@incodit/moreless";
+import "@incodit/readmore";
 ```
 
 or
 
 ```javascript
-require("@incodit/moreless");
+require("@incodit/readmore");
 ```
 
 ```javascript
 $(document).ready(function () {
-  $(".item").moreLess({
+  $(".item").readMore({
     moreLabel: "... Read more", // optional
     lessLabel: "... Read less", // optional
     moreClass: "read-more-link", // optional

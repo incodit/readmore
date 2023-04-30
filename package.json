@@ -1,5 +1,5 @@
 {
-  "name": "@incodit/moreless",
+  "name": "@incodit/readmore",
   "version": "1.1.2",
   "description": "A lightweight jQuery plugin for expanding and collapsing long content.",
   "author": {
@@ -10,9 +10,9 @@
     "Balbinder Sumbria"
   ],
   "bugs": {
-    "url": "https://github.com/incodit/moreless/issues"
+    "url": "https://github.com/incodit/readmore/issues"
   },
-  "homepage": "https://moreless.incodit.com",
+  "homepage": "https://readmore.incodit.com",
   "keywords": [
     "jquery",
     "jquery-plugin",
@@ -24,10 +24,10 @@
     "expand",
     "util"
   ],
-  "main": "moreless.js",
+  "main": "readmore.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/incodit/moreless.git"
+    "url": "git://github.com/incodit/readmore.git"
   },
   "devDependencies": {
     "jquery": "^3.6.3",
